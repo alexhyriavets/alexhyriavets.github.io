@@ -1,0 +1,158 @@
+/* Medium Devices, Desktops */
+
+
+/* Small Devices, Tablets */
+
+
+@media only screen and (max-width : 995px) {
+	
+    .img1,
+    .img2,
+    .img4,
+    .img5 {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width : 940px) {
+    .first {
+        font-size: 70px;
+    }
+    .second {
+        font-size: 45px;
+        width: 650px;
+    }
+    .head-text {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+	
+    .left {
+        margin-bottom: 40px;
+    }
+    .get_in_touch,
+    .about,
+    .blog,
+    .portfolio,
+    .gallery_content
+    {
+        padding: 0;
+        padding-bottom: 20px;
+    }
+    
+    .portfolio {
+        text-align: center;
+    }
+    
+    .blog_item {
+        margin: 30px auto;
+    }
+    
+    /*----TOP MENU-----*/
+    #sandwich {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+        width: 100%;
+        padding: 0 !important;
+        text-align: center;
+        border-top: 1px solid #ccc;
+        background-color: rgba(255,255,255,1);
+        position: relative;
+        position: absolute;
+        top: 94px;
+        right: 0;
+        z-index: 100;
+    }
+    
+    .nav ul {
+        margin-left: 20px;
+    }
+
+    .nav li {
+        float: none;
+        padding: 7px;
+        margin-left: 0;
+        border-bottom: 1px solid #ccc;
+
+    }
+    
+    .nav li a {
+        line-height: 2;
+    }
+    
+    .top-nav li:first-child {
+       line-height: 2;
+       
+    }
+    
+    .nav li:last-child() {
+        margin-bottom: 0;
+    }
+    
+    
+}
+
+@media only screen and (max-width : 720px) {
+    .first {
+        font-size: 60px;
+    }
+    .second {
+        font-size: 40px;
+        width: 550px;
+    }
+    .head-text {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width : 625px) {
+    .first {
+        font-size: 40px;
+    }
+    .second {
+        font-size: 30px;
+        width: 350px;
+        padding-left: 0;
+    }
+    .head-text {
+        width: 425px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.divider span {
+		padding-left: 43px;
+	}
+	 
+    .photo {
+        margin: 0 auto;
+    }
+    
+    .text_about {
+        margin-top: 10px;
+    }    
+    
+}
+
+@media only screen and (max-width : 440px) {
+    .first {
+        font-size: 40px;
+    }
+    .second {
+        font-size: 30px;
+        width: 294px;
+        padding-left: 0;
+    }
+    .head-text {
+        width: 310px;
+        margin-top: 80px;
+    }
+}
+
+
