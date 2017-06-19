@@ -146,11 +146,13 @@
     }
     .second {
         font-size: 30px;
-        width: 294px;
+        width: 100%;
+        max-width: 294px;
         padding-left: 0;
     }
     .head-text {
-        width: 310px;
+        width: 100%;
+        max-width: 310px;
         margin-top: 80px;
     }
 }
