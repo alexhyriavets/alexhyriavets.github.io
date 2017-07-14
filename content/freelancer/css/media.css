@@ -1,0 +1,112 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+@media screen and (max-width: 415px) {
+	.header_text_wrap {
+		top: 240px;
+		text-align: center;
+	}
+	h1 {
+		font-size: 32px;
+	}
+
+	.top_nav ul li,
+	.top_nav ul li:first-child {
+		float: none;
+		margin: 0 40%;
+	}
+
+	.social {
+		margin: 0 40% !important;
+		margin-top: 20px !important;
+	}
+
+	#about {
+		text-align: center;
+		padding: 32px;
+	}
+
+	#our_team {
+		padding-bottom: 10px;
+	}
+
+	#footer {
+		text-align: center;
+	}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) { 
+	.sandwich {
+		display: block;
+	}
+
+	.nav,
+	.social {
+		display: none;
+	}
+
+	
+	.top_nav {
+		width: 100%;
+	}
+
+	.top_nav ul {
+		float: none;
+		background-color: #fff;
+		border-radius: 10px;
+		margin-top: 10px;
+	}
+
+	.top_nav ul li {
+		float: none;
+		margin-left: 0;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.top_nav ul li:last-child {
+		border-bottom: none;
+	}
+	.top_nav ul li, .top_nav ul li:first-child {
+		margin: 0;
+	}
+	.top_nav ul li a {
+		padding: 15px 0;
+	}
+
+	.social {
+		float: none;
+		padding-left: 0;
+		padding-top: 0;
+		text-align: center;
+	}
+
+	/*.header_text_wrap button {
+		margin: 30px auto;
+	}*/
+	
+	.button_more {
+		margin-bottom: 40px;
+	}
+	
+	#our_team,
+	#about {
+		padding-bottom: 70px;
+	}
+
+	.team_member {
+		margin-bottom: 70px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (max-width: 992px) { 
+	#portfolio .button_more {
+		float: right;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (max-width: 1200px) { ... }
+
